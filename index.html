@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suitmedia Frontend Test</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href="#">Company</a></div>
+            <ul class="nav-links">
+                <li><a href="#">ABOUT</a>
+                    <ul class="drop-menu">
+                        <li><a href="">HISTORY</a></li>
+                        <li><a href="">VISSION MISSION</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">OUR WORK</a></li>
+                <li><a href="#">OUR TEAM</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Image SLider -->
+    <div class="carousel-container">
+        <div class="navigation">
+            <div class="prev nav-btn">
+                <</div> <div class="next nav-btn">>
+            </div>
+        </div>
+        <div class="carousel">
+            <div class="item main">
+                <img src="img/bg.jpg" alt="Image 1" />
+                <div class="caption">THIS IS A PLACE WHERE TECHNOLOGY & <br>CREATIVITY FUSED INTO DIGITAL CHEMISTRY</br>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/about-bg.jpg" alt="Image 2" />
+                <div class="caption">WE DON'T HAVE THE BEST BUT WE HAVE THE <br>GREATEST TEAM</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Our Values -->
+    <section class="values">
+        <div class="values-wrapper">
+            <h2>OUR VALUES</h2>
+            <div class="values-cards">
+                <div class="val-card">
+                    <div class="val-icon"><img src="img/lightbulb-o.png" alt="" style="width: 15px; "></div>
+                    <div class="val-title">INNOVATIVE</div>
+                    <div class="val-caption">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, voluptatum.
+                    </div>
+                </div>
+                <div class="val-card">
+                    <div class="val-icon"><img src="img/bank.png" alt="" style="width: 25px; "></div>
+                    <div class="val-title">LOYALTY</div>
+                    <div class="val-caption">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, voluptatum.
+                    </div>
+                </div>
+                <div class="val-card">
+                    <div class="val-icon"><img src="img/balance-scale.png" alt="" style="width: 25px; "></div>
+                    <div class="val-title">RESPECT</div>
+                    <div class="val-caption">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, voluptatum.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Form -->
+    <section class="contact-us">
+        <h2>CONTACT US</h2>
+        <div class="contact-wrapper">
+            <div class="contact-form">
+                <form action="" id="form">
+                    <div class="contact-form">
+                        <div class="input-control">
+                            <label for="username">Name</label>
+                            <input type="text" name="username" id="username">
+                            <div class="error"></div>
+                        </div>
+                        <div class="input-control">
+                            <label for="email">Email</label>
+                            <input type="text" name="Email" id="email">
+                            <div class="error"></div>
+                        </div>
+                        <div class="input-control">
+                            <label for="messsage">Message</label>
+                            <textarea name="message" id="message" cols="30" rows="3"></textarea>
+                            <div class="error"></div>
+                        </div>
+                        <button>SUBMIT</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer">
+            <div class="footer-text">
+                Copyright &copy; 2016. PT Company
+            </div>
+            <div class="footer-icon">
+                <img src="img/facebook-official.png" alt="">
+                <img src="img/twitter.png" alt="">
+            </div>
+        </div>
+    </footer>
+
+    <!-- Js -->
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
