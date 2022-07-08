@@ -9,7 +9,7 @@
 }
 
 nav {
-  z-index: 99;
+  z-index: 9999;
   width: 100%;
   height: 50px;
   line-height: 50px;
@@ -49,6 +49,7 @@ nav .wrapper {
 }
 
 .nav-links .drop-menu {
+  z-index: 9999;
   top: 50px;
   background-color: #fff;
   position: absolute;
